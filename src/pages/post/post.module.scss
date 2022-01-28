@@ -1,1 +1,63 @@
 // TODO
+.container {
+    position: absolute;
+    top: 11rem;
+    width: 100%;
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column wrap; 
+        flex: 1;       
+        h1{
+            font-size: 3rem;
+            color: var(--gray-100);
+            line-height: 4rem;
+            letter-spacing: -0.05px;
+            font-weight: bold;
+            margin-top: 6rem;
+        }
+        .info{
+            display: block;
+            margin-top: 1rem;
+            time,p{
+                display: inline-block;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1rem;
+                line-height: 1rem;
+                color: var(--gray-300);
+            }
+            
+            p {
+                margin-right: 1.5rem;
+                margin-left: 1.5rem;
+            }
+            svg{
+                width: 18px;
+                height: 18px;
+             }
+        }
+        .contentBody{
+            margin-top: 1.5rem;
+            max-width: 800px; 
+            font-size: 1rem;
+            line-height: 2rem;
+            color: var(--gray-100);
+            text-align: justify;
+
+            
+            article{
+                margin-top: 1.5rem;
+            }
+        }
+
+        
+    }
+}  
+.banner{
+     width: 100%;
+     display:block;
+     height: 25rem;
+}
